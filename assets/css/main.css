@@ -1,0 +1,186 @@
+body {
+    background-color: #fafafa;
+    color: #262626;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #262626;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .message-board {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 20px;
+  }
+  
+  .message-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .message-list li {
+    margin-bottom: 10px;
+  }
+  
+  .message-list li strong {
+    color: #262626;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .message-form {
+    margin-top: 20px;
+  }
+  
+  .message-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .message-form input[type="text"], .message-form textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .message-form button {
+    background-color: #3897f0;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .message-form button:hover {
+    background-color: #2a5caa;
+  }
+  /* Sticky note card styles */
+.sticky-note-card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .sticky-note-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 80px 80px;
+    border-color: transparent transparent #f8f8f8 transparent;
+  }
+  
+  .sticky-note-card:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+  }
+  
+  .sticky-note-card.blue:before {
+    border-color: transparent transparent #3498db transparent;
+  }
+  
+  .sticky-note-card.blue:after {
+    background-color: #3498db;
+  }
+  
+  .sticky-note-card.green:before {
+    border-color: transparent transparent #2ecc71 transparent;
+  }
+  
+  .sticky-note-card.green:after {
+    background-color: #2ecc71;
+  }
+  
+  .sticky-note-card.yellow:before {
+    border-color: transparent transparent #f1c40f transparent;
+  }
+  
+  .sticky-note-card.yellow:after {
+    background-color: #f1c40f;
+  }
+  
+  .sticky-note-card.pink:before {
+    border-color: transparent transparent #e91e63 transparent;
+  }
+  
+  .sticky-note-card.pink:after {
+    background-color: #e91e63;
+  }
+  
+  .sticky-note-card.orange:before {
+    border-color: transparent transparent #ff9800 transparent;
+  }
+  
+  .sticky-note-card.orange:after {
+    background-color: #ff9800;
+  }
+  
+  .sticky-note-card.red:before {
+    border-color: transparent transparent #e74c3c transparent;
+  }
+  
+  .sticky-note-card.red:after {
+    background-color: #e74c3c;
+  }
+  
+  .sticky-note-card .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sticky-note-card .message {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .sticky-note-card .delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .sticky-note-card .delete-button:hover {
+    color: #e74c3c;
+  }
+  
