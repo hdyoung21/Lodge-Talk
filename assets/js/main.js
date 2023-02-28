@@ -1,5 +1,9 @@
 const messageForm = document.querySelector('.message-form');
 const messageList = document.querySelector('.message-list');
+const newCard = {
+    title: titleInput.value,
+
+}
 
 // hard-coded messages for demonstration purposes
 const messages = [
